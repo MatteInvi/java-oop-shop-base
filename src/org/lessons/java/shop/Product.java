@@ -21,9 +21,8 @@ public class Product {
       this.code = setCode(); // Numero randomico
       this.name = name;
       this.descrizione = descrizione;
-      this.price = price; //Prezzo default
-      this.iva = iva; // IVA Minima Applicabile
-
+      this.price = price;
+      this.iva = iva; 
     }
 // Metodi
      public int setCode(){
